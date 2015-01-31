@@ -34,5 +34,7 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/jshint . && ./node_modules/.bin/mocha && ./node_modules/.bin/protractor"
+    "start": "node boot.js"
+    "postinstall": "gulp build"
   }
 }
